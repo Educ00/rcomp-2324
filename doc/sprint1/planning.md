@@ -1,4 +1,4 @@
-# Project 1 - Sprint 1 planning #
+    # Project 1 - Sprint 1 planning #
 
 ### 1. Scrum Master: ###
 **Eduardo Carreiro (1211199).**
