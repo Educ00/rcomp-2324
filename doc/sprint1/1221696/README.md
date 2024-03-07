@@ -6,8 +6,8 @@
 * Inventario dos produtos usados para o desencolvimento da estrutura
 
 ## Imagem dos pisos
-### Piso 0   
-![img_1.png](img_1.png)
+### Piso 0
+imagem do piso 0
 ### Piso 1
 Colocar imagem 
 ## Defesa das estratégias usadas
@@ -90,13 +90,15 @@ Cada sala com a exceção da sala 2.0.11 / 2.0.6 e 2.0.7 estão equipadas com ou
 
 ## Medir comprimento de calhas / comprimento de fio de rede CAT7 / numero de outlets / numero de Consolidation points / numero de access Points / Onde colocar o HCC e ICC ###
 ### Piso 0
-    | Sala | Area por Sala | Largura | Comprimento |
-    |------|---------------|---------|-------------|
-    |2.0.1:|
-    |2.0.2:| 
-    |2.0.3:|
-    |2.0.4:|
-    |2.0.5:| 
+
+| Produto            | Quantidade Metro ou unidade | Preço por Unidade ou Metro | Preço Total|
+|:-------------------|:----------------------------|:---------------------------|:-----------|
+| Calha solo  		     | 	6                          | 		      
+| Calha teto 		      | 	6                          | 		  
+| Outlet 		          | 	6                          | 		    
+| Fio Cobre CAT7  		 | 	6                          | 		    
+| Fibra Otica  		    | 	6		                        |      
+
     
 ### Inventario ###
 Pesquisar pelo preço de cada componente por unidade e por metro
