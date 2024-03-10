@@ -2,10 +2,17 @@
 ## 1. Introduction
     This file documents the planning of the Building 1.
 
-### 1.2. TODO: Subtitles Image ###
-![Subtitles]()
+### 1.2. Subtitles ###
+![Subtitles](./subtitles.png)
 
 ## 2. Campus Backbone ##
+
+### 2.1. Layout ###
+![Campus_Backbone](./Campus Backbone/campus-backbone.png)
+
+### 2.2. Cabling ###
+
+![Campus_Backbone_Cabling](./Campus Backbone/campus-backbone-cables.png)
 
     The total length for cabling the campus backbone is 2039,6 meters of Monomode Optical Fiber. 
     In order to have backbone redundant connections, 2 cables were used that follow different paths
@@ -21,7 +28,7 @@
 
 
 ## 3. Building Structure ##
-### 3.1. Building Informations ###
+### 3.1. Building Information ###
     This building holds the datacentre (room 1.1.4), it will also house the main cross-connect for the 
     structured cabling system. Both floors have wireless LAN coverage (Wi-Fi).
 
@@ -35,7 +42,8 @@
     The ceiling height on this floor is 4 meters
 
 ### 3.2.1. Floor Layout ###
-![Floor_Ground](images/ground/floor_ground-limpo.png)
+
+![Floor_Ground](./Ground Floor/ground-floor.png)
 
 ### 3.2.2. Rooms ###
 
@@ -54,7 +62,8 @@
     This floor has no underfloor cable raceways.
 
 ### 3.3.1. Floor Layout ###
-![Floor_First](floor_first.png)
+
+![Floor_1](./Floor 1/floor1.png)
 
 ### 3.3.2. Rooms ###
 
@@ -104,10 +113,12 @@
 
 #### 4.2.3 Location ####
 ##### 4.2.1. Ground Floor #####
-![Acess_Points_Floor_Ground](images/ground/aps/floor_ground-aps&range.png)
+
+![Acess_Points_Floor_Ground](./Ground Floor/ground-floor-all.png)
 
 ##### 4.2.2. First Floor #####
-![Acess_Points_Floor_Ground]()
+
+![Acess_Points_Floor1](./Floor 1/floor1-all.png)
 
 ## 5. Cross-Connections ##
 
@@ -117,8 +128,6 @@
     Only one ICC is needed for this building.
     The intermediate cross-connect for this building is located in the room 1.1.4.
     For this to be possible, the optical fiber coming from the outside the building is being conducted to this room via underground cable passageways.
-
-![Cross-Connections_Floor_Ground](images/ground/connectors/floor_ground-connectors&optical.png)
 
 #### 5.1.2. Horizontal Cross-Connects (HCCs) ####
     Only 2 HCCs are needed in this building, 1 per floor.
@@ -131,15 +140,49 @@
 ## 6. Cables ##
 ### 6.1. Layout ###
 #### 6.1.1. Ground Floor ####
-![Cross-Connections_Floor_Ground](images/ground/cables/floor_ground-cables&outlets&aps.png)
+
+![Cables_Ground_Floor](./Ground Floor/ground-floor-cables-outlets-aps.png)
 
 #### 6.1.2. First Floor ####
-![Cross-Connections_Floor_First]()
+
+![Cables_Floor1](./Floor 1/floor1-cables-outlets-aps.png)
 
 ### 6.2. Types ###
     Optical fiber cables were used on the backbone cabling system.
     The copper cables are used to make the connection from the HCC to the outlets and access points.
     The type of the cables was determined to be Monomode Optical Fiber and Cat7 Coper Cables.
+
+### 6.3. Length ###
+#### 6.3.1. Ground Floor ####
+
+    To wire this floor, a total of 701,9 meters of copper cable is needed to 
+    connect with all 40 outlets and 4 access points.
+
+| Room  | Copper Cable | Optical Fiber Cable |
+|:-----:|:------------:|:-------------------:|
+| 1.0.1 |    189,05    |          0          |
+| 1.0.2 |     68,4     |          0          |
+| 1.0.3 |     71,7     |          0          |
+| 1.0.4 |     64,2     |          2          |
+| 1.0.5 |     54,6     |          0          |
+| 1.0.6 |    209,45    |          0          |
+| TOTAL |    701,9     |          0          |
+
+#### 6.3.2. Floor 1 ####
+
+    To wire this floor, a total of 1051,2 meters of copper cable is needed to 
+    connect with all 52 outlets and 4 access points.
+
+| Room  | Copper Cable | Optical Fiber Cable |
+|:-----:|:------------:|:-------------------:|
+| 1.1.1 |    149,2     |          0          |
+| 1.1.2 |    149,85    |          0          |
+| 1.1.3 |     103      |          0          |
+| 1.1.4 |     95,6     |         1,7         |
+| 1.1.5 |    74,35     |          0          |
+| 1.1.6 |    219,2     |          0          |
+| 1.1.7 |     260      |          0          |
+| TOTAL |    1051,2    |          0          |
 
 ## 7. Telecommunication Enclosures ##
 
