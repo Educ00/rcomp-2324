@@ -137,15 +137,23 @@
 ![Cross-Connections_Floor_First]()
 
 ### 6.2. Types ###
-    Optical fiber is only used to conduct the signal from outside to the ICC.
-    The rest of the cables are used to make the connection from the HCC to the outlets and the access points.
+    Optical fiber cables were used on the backbone cabling system.
+    The copper cables are used to make the connection from the HCC to the outlets and access points.
     The type of the cables was determined to be Monomode Optical Fiber and Cat7 Coper Cables.
 
-### 6.3. Length ###
-#### 6.3.1. Ground Floor ####
-![img.png](images/ground/tables_length/floor_ground-table_copper_length.png)
-![img_1.png](images/ground/tables_length/floor_ground-table_optical_fiber_length.png)
-![img.png](images/ground/tables_length/floor_ground-table_total_length.png)
+## 7. Telecommunication Enclosures ##
+
+## 8. Patch Panels ##
+
+| Floor  | Outlets | Patch Pannels |
+|:------:|:-------:|:-------------:|
+| Ground |   40    |       2       |
+| First  |   52    |       2       |
 
 
-#### 6.3.2. First Floor ####
+## 9. Inventory ##
+
+| Floor  | Outlets | Access Points | MCC | HCC | ICC | Copper Cable (m) | Optical Fiber Cable (m) |
+|:------:|:-------:|:-------------:|:---:|:---:|:---:|:----------------:|:-----------------------:|
+| Ground |   40    |       4       |  0  |  1  |  0  |      701,9       |         1051,2          |
+| First  |   52    |       4       |  1  |  1  |  1  |      1051,2      |           1,7           |
