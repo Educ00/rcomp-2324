@@ -2,8 +2,8 @@
 ## 1. Introduction
     This file documents the planning of the Building 3.
 
-### 1.2. TODO: Subtitles Image
-![Subtitles]()
+### 1.2. Subtitles
+![Subtitles](images/subtitles.png)
 
 ## 2. Building Structure
 ### 2.1. Building Dimensions ### 
