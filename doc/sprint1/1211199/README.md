@@ -110,6 +110,13 @@
 #### 4.1.2. Horizontal Cross-Connects (HCCs) ####
     Only 2 HCCs are needed in this building, 1 per floor.
     In the ground floor it is located in the room 3.0.14 and in the first floor, it is right above in room 3.1.18.
+### 4.2. Patch Panels ###
+
+| Floor  | Outlets | 24 ports Patch Panels | Switches |      Racks      |
+|:------:|:-------:|:---------------------:|:--------:|:---------------:|
+| Ground |   76    |           4           |    4     | (4+4) * 2 = 16U |
+| First  |   86    |           4           |    4     | (4+4) * 2 = 16U |
+
 ## 5. Cables ##
 ### 5.1. Layout ###
     Each connection to a outlet ou a acess point is a distinct cable. 
@@ -150,3 +157,11 @@
 ![floor_first-table_optical_fiber_length.png](images/first/tables_length/floor_first-table_optical_fiber_length.png)
 #### 5.3.2.4. Floor Cables Length Overview ####
 ![floor_first-table_total.png](images/first/tables_length/floor_first-table_total.png)
+
+## 6. Inventory ##
+### 6.1. Overview ###
+| Floor  | Outlets | Access Points | MCC | HCC | ICC | Copper Cable (m) | Optical Fiber Cable (m) |
+|:------:|:-------:|:-------------:|:---:|:---:|:---:|:----------------:|:-----------------------:|
+| Ground |   76    |       9       |  0  |  1  |  1  |     2737,35      |          64,00          |
+| First  |   86    |       4       |  0  |  1  |  0  |     2747,57      |          2,50           |
+| Total  |   162   |      13       |  0  |  2  |  1  |     5484,92      |          66,50          |
