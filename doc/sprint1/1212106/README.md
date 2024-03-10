@@ -16,19 +16,19 @@
 
 #### 1.2.2. Rooms ####
 
-| Room&nbsp;Nº | With(m) | Length(m) | Area(m^2) | Outlets |
-|:------------:|:-------:|:---------:|:---------:|:-------:|
-|    4.0.1     |  5,30   |   5,30    |   28,09   |    6    |
-|    4.0.2     |  11,40  |   11,40   |  129,96   |   12    |
-|    4.0.3     |  7,00   |   3,50    |   24,50   |    6    |
-|    4.0.4     |  7,00   |   3,50    |   24,50   |    6    |
-|    4.0.5     |  7,00   |   3,50    |   24,50   |    6    |
-|    4.0.6     |  7,00   |   3,50    |   24,50   |    6    |
-|    4.0.7     |  7,00   |   3,50    |   24,50   |    6    |
-|    4.0.8     |  7,00   |   3,50    |   24,50   |    6    |
-|    4.0.9     |  7,00   |   3,50    |   24,50   |    6    |
-|    4.0.10    |  7,00   |   3,50    |   24,50   |    6    |
-|    4.0.11    |  7,00   |   3,50    |   24,50   |    6    |
+| Room&nbsp;Nº | Length(m) | Width(m) | Area(m^2) | Outlets |
+|:------------:|:---------:|:--------:|:---------:|:-------:|
+|    4.0.1     |   5,30    |   5,30   |   28,09   |    6    |
+|    4.0.2     |   11,40   |  11,40   |  129,96   |   12    |
+|    4.0.3     |   7,00    |   3,50   |   24,50   |    6    |
+|    4.0.4     |   7,00    |   3,50   |   24,50   |    6    |
+|    4.0.5     |   7,00    |   3,50   |   24,50   |    6    |
+|    4.0.6     |   7,00    |   3,50   |   24,50   |    6    |
+|    4.0.7     |   7,00    |   3,50   |   24,50   |    6    |
+|    4.0.8     |   7,00    |   3,50   |   24,50   |    6    |
+|    4.0.9     |   7,00    |   3,50   |   24,50   |    6    |
+|    4.0.10    |   7,00    |   3,50   |   24,50   |    6    |
+|    4.0.11    |   7,00    |   3,50   |   24,50   |    6    |
     Room 4.0.12 is a storage area and it is not included in the measurements.
     Room 4.0.12 also does not require any network outlets. The same applies to restrooms and common areas.
 ### Measurements ###
@@ -86,10 +86,10 @@
 
 #### 3.2.1. Overview ####
 
-| Floor  | Access Points | Max Devices (people) |
-|:------:|:-------------:|:--------------------:|
-| Ground |       4       |                      |
-| First  |       2       |          -           |
+| Floor  | Access Points | 
+|:------:|:-------------:|
+| Ground |       4       |                      
+| First  |       2       |          
 
     The access points were placed in the ceiling of both floors. On the ground floor, 4 of them were placed covering a radious of about 6-7 meters.
     On the first floor, only 2 were needed covering a radious of 15 meters, granting full WI-FI coverage to the entire building.
@@ -109,5 +109,19 @@
     Only 2 HCCs are needed in this building, 1 per floor.
     In the ground floor it is located in the room 4.0.12 and in the first floor, it is right above in room 4.1.19.
 
+## 5. Cables ##
+### 5.1 Overview ###
+    In this building we used CAT7 copper cables and optical fiber.
 
+### 5.1.1 Caculations ###
+### Floor 0 ###
+meter aqui a tabela dos cabos       
 
+### Floor 1 ###
+meter aqui a tabela dos cabos 
+
+### Inventory Total ###
+| Floor | CAT7 COPPER CABLE(m) | OPTICAL FIBER(m) | ACCESS POINTS | OUTLETS | HCC | ICC | MCC |
+|:-----:|:--------------------:|:----------------:|:-------------:|:-------:|:---:|:---:|:---:|
+|   0   |       4262,47        |       3,5        |       4       |   72    |  1  |  1  |  0  |
+|   1   |       7027,52        |       1,5        |       2       |   120   |  1  |  1  |  0  |
