@@ -26,7 +26,7 @@
 
     No piso 0 foram colocados 4 Access Points todos com menos de 30 metros de diametro, de modo a que toda area do piso fosse coberta por sinal.
     O piso contem recebe tambem uma fibra otica e contem um ICC e um HCC
-    No piso 0 foi colocado um patch panel de 48 portas que recebe os fios de cobre dos outlets e liga ao HCC
+    No piso 0 foi colocado um patch panel de 48(2U) portas que recebe os fios de cobre dos outlets e liga ao HCC
 ### Piso 1
     Para o piso 1 as calhas foram colocadas por cima do teto falso, tambem percorreu dentro dessas calhas toda a extensão do fio de cobre.
     No piso 1 apesar das calhas estarem no teto, foi preciso descer cada fio 3 metros a contar do teto para o fio chegar ao chão que é onde estão colocados os outlets.
@@ -35,7 +35,7 @@
     No piso 1 foram tambem colocados 4 Access Points mas distribuidos de maneira diferente para não existir sobreposição de sinal em relacaçao aos AP do piso 0.
     Neste piso optei por ligar os outlets todos ao HCC mas poderia ter tambem optado por outra abordagem que se resume a colocar Consolidation Points onde existe uma maior concentração de outlets, desse modo poupavamos no fio de cobre pois bastava ligar um CP ao HCC.
     Sabemos tambem que o piso 1 nao recebe diretamente fibra otica nem possui um ICC.
-    No piso 1 foram colocados 2 patch panels de 48 portas e 1 patch panel de 24 portas que recebe os fios de cobre dos outlets e liga ao HCC 
+    No piso 1 foram colocados 2 patch panels de 48(2U) portas e 1 patch panel de 24(1U) portas que recebe os fios de cobre dos outlets e liga ao HCC 
 ## Medição de cada piso
 ### Piso 0
 
