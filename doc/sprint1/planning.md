@@ -35,5 +35,15 @@
 - Maximum of 30 accesses per access point (15 estimated people per access point);
 - Each person is restricted to 2 accesses at a time (example: smartphone and laptop).
 
+#### 4.4 Cross-Connects ####
+- MCC: 1 per campus;
+- ICC: 1 per building;
+- HCC: 1 per floor.
+- MCC: is located in the datacenter of building 1;
+
+#### 4.5. Budget ####
+- The prices used for this budget are based on a average of the Amazon market list for these products.
+
+![budget.png](budget.png)
 
 
