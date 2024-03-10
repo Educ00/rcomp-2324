@@ -13,7 +13,7 @@
 ### 2.2. Ground Floor ###
 
 ### 2.2.1. Floor Layout ###
-![Floor_Ground](images/ground/floor_ground-limpo.png)
+![floor_ground-limpo.png](images/ground/floor_ground-limpo.png)
 
 ### 2.2.2. Rooms ###
 
@@ -36,9 +36,8 @@
 | 3.0.15 | 3,3 x 4,2  | 13,9 |    4    |
 
 ### 2.3. First Floor ###
-#### TODO
 ### 2.3.1. Floor Layout ###
-![Floor_First](floor_first.png)
+![floor_first-limpo.png](images/first/floor_first-limpo.png)
 
 ### 2.3.2. Rooms ###
 
@@ -73,10 +72,10 @@
     Please note that adding more access points may change the layout and configuration of the rest.
 ### 3.1. Outlets ###
 #### 3.1.1. Overview ####
-| Floor  | Outlets | Usable Outlets |
-|:------:|:-------:|----------------|
-| Ground |   76    | 67             |
-| First  |   86    | -              |
+| Floor  | Outlets |
+|:------:|:-------:|
+| Ground |   76    | 
+| First  |   86    |
    
 ### 3.2. Acess Points ###
 #### 3.2.1. Overview ####
@@ -84,7 +83,7 @@
 | Floor  | Access Points | Max Devices (people) |
 |:------:|:-------------:|:--------------------:|
 | Ground |       9       |      270 (135)       |
-| First  |       -       |          -           |
+| First  |       4       |       120 (60)       |
 
 #### 3.2.2. Configuration ####
     All the acess points are placed in the cealing.
@@ -92,10 +91,10 @@
     The radius of every access point is configured to be around 2-3 meters to 6-7 meters.
 #### 3.2.3 Location ####
 ##### 3.2.1. Ground Floor #####
-![Acess_Points_Floor_Ground](images/ground/aps/floor_ground-aps&range.png)
+![floor_ground-aps&range.png](images/ground/aps/floor_ground-aps&range.png)
 
 ##### 3.2.2. First Floor #####
-![Acess_Points_Floor_Ground]()
+![floor_first-aps&range.png](images/first/aps/floor_first-aps&range.png)
 
 ## 4. Cross-Connections ##
 
@@ -106,19 +105,20 @@
     The intermidiate cross-connect for this building is located in the room 3.0.14 (storage room in the ground floor).
     For this to be possible, the optical fiber comming from the outside the building is beeing conducted to this room via underground cable passageways.
 
-![Cross-Connections_Floor_Ground](images/ground/connectors/floor_ground-connectors&optical.png)
+![floor_ground-connectors&optical.png](images/ground/connectors/floor_ground-connectors&optical.png)
 
 #### 4.1.2. Horizontal Cross-Connects (HCCs) ####
     Only 2 HCCs are needed in this building, 1 per floor.
     In the ground floor it is located in the room 3.0.14 and in the first floor, it is right above in room 3.1.18.
-
 ## 5. Cables ##
 ### 5.1. Layout ###
+    Each connection to a outlet ou a acess point is a distinct cable. 
+    Each one of these cables come directly from the floor's respective HCC.
 #### 5.1.1. Ground Floor ####
-![Cross-Connections_Floor_Ground](images/ground/cables/floor_ground-cables&outlets&aps.png)
+![floor_ground-cables&outlets&aps.png](images/ground/cables/floor_ground-cables&outlets&aps.png)
 
 #### 5.1.2. First Floor ####
-![Cross-Connections_Floor_First]()
+![floor_first-cables&outlets&aps.png](images/first/cables/floor_first-cables&outlets&aps.png)
 
 ### 5.2. Types ###
     Optical fiber is only used to conduct the signal from outside to the ICC.
@@ -127,9 +127,12 @@
 
 ### 5.3. Length ###
 #### 5.3.1. Ground Floor ####
-![img.png](images/ground/tables_length/floor_ground-table_copper_length.png)
-![img_1.png](images/ground/tables_length/floor_ground-table_optical_fiber_length.png)
-![img.png](images/ground/tables_length/floor_ground-table_total_length.png)
-
-
+![floor_ground-table_copper_length.png](images/ground/tables_length/floor_ground-table_copper_length.png)
+![floor_ground-table_access_points.png](images/ground/tables_length/floor_ground-table_access_points.png)
+![floor_ground-table_optical_fiber_length.png](images/ground/tables_length/floor_ground-table_optical_fiber_length.png)
+![floor_ground-table_total.png](images/ground/tables_length/floor_ground-table_total.png)
 #### 5.3.2. First Floor ####
+![floor_first-table_copper_length.png](images/first/tables_length/floor_first-table_copper_length.png)
+![floor_first-table_access_points.png](images/first/tables_length/floor_first-table_access_points.png)
+![floor_first-table_optical_fiber_length.png](images/first/tables_length/floor_first-table_optical_fiber_length.png)
+![floor_first-table_total.png](images/first/tables_length/floor_first-table_total.png)
