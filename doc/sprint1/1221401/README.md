@@ -184,17 +184,20 @@
 | 1.1.7 |     260      |          0          |
 | TOTAL |    1051,2    |          0          |
 
-## 7. Telecommunication Enclosures ##
+## 7. Patch Pannels ##
 
-## 8. Patch Panels ##
+    Since patch panels should meet the cable specifications and we decided to use CAT7 Cables, all of the patch panels are also CAT7.
+    Monomode Optical Fiber Cable were selected, so Fiber Patch Panels should be Monomode compatible as well.
+    Since 40 outlets are installed on the ground floor, a patch panel with 48 ports will be required and on the first floor, with 52 outlets,
+    it'll be required a patch pannel with 24 ports and another with 48 ports.
 
-| Floor  | Outlets | Patch Pannels |
-|:------:|:-------:|:-------------:|
-| Ground |   40    |       2       |
-| First  |   52    |       2       |
+| Floor  | Outlets | Patch Pannels | Switches |        Racks        |
+|:------:|:-------:|:-------------:|:--------:|:-------------------:|
+| Ground |   40    |       1       |    1     | (1U + 1U) * 2U = 4U |
+| First  |   52    |       2       |    2     | (2U + 2U) * 2U = 8U |
 
 
-## 9. Inventory ##
+## 8. Inventory ##
 
 | Floor  | Outlets | Access Points | MCC | HCC | ICC | Copper Cable (m) | Optical Fiber Cable (m) |
 |:------:|:-------:|:-------------:|:---:|:---:|:---:|:----------------:|:-----------------------:|
