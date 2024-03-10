@@ -115,10 +115,12 @@
 
 ### 5.1.1 Caculations ###
 ### Floor 0 ###
-meter aqui a tabela dos cabos       
+meter aqui a tabela dos cabos
+![img1.png](images/tables/img1.png)       
 
 ### Floor 1 ###
-meter aqui a tabela dos cabos 
+meter aqui a tabela dos cabos
+![img.png](images/tables/img.png) 
 
 ### Inventory Total ###
 | Floor | CAT7 COPPER CABLE(m) | OPTICAL FIBER(m) | ACCESS POINTS | OUTLETS | HCC | ICC | MCC |
