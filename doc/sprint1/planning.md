@@ -45,4 +45,3 @@
 - The prices used for this budget are based on a average of the Amazon market list for these products.
 
 ![budget.png](budget.png)
-![total_budget.png](total_budget.png)
