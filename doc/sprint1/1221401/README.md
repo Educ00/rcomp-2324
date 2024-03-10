@@ -184,18 +184,20 @@
 | 1.1.7 |     260      |          0          |
 | TOTAL |    1051,2    |          0          |
 
-## 7. Patch Pannels ##
+## 7. Patch Panels ##
 
     Since patch panels should meet the cable specifications and we decided to use CAT7 Cables, all of the patch panels are also CAT7.
     Monomode Optical Fiber Cable were selected, so Fiber Patch Panels should be Monomode compatible as well.
     Since 40 outlets are installed on the ground floor, a patch panel with 48 ports will be required and on the first floor, with 52 outlets,
     it'll be required a patch pannel with 24 ports and another with 48 ports.
 
-| Floor  | Outlets | Patch Pannels | Switches |        Racks        |
-|:------:|:-------:|:-------------:|:--------:|:-------------------:|
-| Ground |   40    |       1       |    1     | (1U + 1U) * 2U = 4U |
-| First  |   52    |       2       |    2     | (2U + 2U) * 2U = 8U |
+| Floor  | Outlets | 24 ports Patch Panels | Switches |        Racks         |
+|:------:|:-------:|:---------------------:|:--------:|:--------------------:|
+| Ground |   40    |           2           |    2     | (2U + 2U) * 2U = 8U  |
+| First  |   52    |           3           |    3     | (3U + 3U) * 2U = 12U |
 
+    We decided to use only 24 ports CAT7 copper patch panels, each one takes 1U.
+    For each corresponding switch is also added 1U, and at the end, 100% oversize must be added.
 
 ## 8. Inventory ##
 
