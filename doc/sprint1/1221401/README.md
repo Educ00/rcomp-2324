@@ -191,10 +191,10 @@
     Since 40 outlets are installed on the ground floor, a patch panel with 48 ports will be required and on the first floor, with 52 outlets,
     it'll be required a patch pannel with 24 ports and another with 48 ports.
 
-| Floor  | Outlets | 24 ports Patch Panels | Switches |        Racks         |
-|:------:|:-------:|:---------------------:|:--------:|:--------------------:|
-| Ground |   40    |           2           |    2     | (2U + 2U) * 2U = 8U  |
-| First  |   52    |           3           |    3     | (3U + 3U) * 2U = 12U |
+| Floor  | Outlets | 24 ports Patch Panels | 48 ports Patch Panels | Switches |        Total         |
+|:------:|:-------:|:---------------------:|:---------------------:|:--------:|:--------------------:|
+| Ground |   40    |           0           |           1           |    2     | (2U + 2U) * 2U = 8U  |
+| First  |   52    |           1           |           1           |    3     | (3U + 3U) * 2U = 12U |
 
     We decided to use only 24 ports CAT7 copper patch panels, each one takes 1U.
     For each corresponding switch is also added 1U, and at the end, 100% oversize must be added.
