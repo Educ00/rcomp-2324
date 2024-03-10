@@ -82,9 +82,15 @@
 
 
 ### 3.2. Acess Points ###
+#### 3.2.1 Location ####
+##### Floor 0 #####
+![floor_0_ap.png](images/floors_aps/floor_0_ap.png)
+
+##### Floor 1 #####
+![floor_1_ap.png](images/floors_aps/floor_1_ap.png)
 
 
-#### 3.2.1. Overview ####
+#### 3.2.2. Overview ####
 
 | Floor  | Access Points | 
 |:------:|:-------------:|
@@ -115,14 +121,29 @@
 
 ### 5.1.1 Caculations ###
 ### Floor 0 ###
-meter aqui a tabela dos cabos
-![img1.png](images/tables/img1.png)       
+
+![cables_tables_floor0.png](images/tables/cables_tables_floor0.png)
 
 ### Floor 1 ###
-meter aqui a tabela dos cabos
-![img.png](images/tables/img.png) 
+![cables_table_floor1.png](images/tables/cables_table_floor1.png)
 
-### Inventory Total ###
+
+## 6. Patch Panels ##
+### 6.1 Patch Panels Overview ###
+    Considering that we've opted for CAT7 cables to adhere to cable specifications, all patch panels will also be CAT7 compliant.
+    In line with our selection of monomode optical fiber cables, the fiber patch panels must also be compatible with monomode fibers.
+    Since the ground floor has 72 outlets we chose to use 1 patch panel of 24 ports plus a 48 ports patch panel.
+    On the first floor, we have 120 outlets, so we chose to use 2 patch panels of 48 ports and one 24 ports patch panel.
+
+| Floor  | Outlets | 24 ports Patch Panels | 48 ports Patch Panels | Switches |        Total         |
+|:------:|:-------:|:---------------------:|:---------------------:|:--------:|:--------------------:|
+| Ground |   72    |           1           |           1           |    2     | (2U + 2U) * 2U = 8U  |
+| First  |   120   |           1           |           2           |    3     | (3U + 3U) * 2U = 12U |
+
+    We decided to use only 24 ports CAT7 copper patch panels, each one takes 1U.
+    For each corresponding switch is also added 1U, and at the end, 100% oversize must be added.
+
+## 7. Inventory Total ##
 | Floor | CAT7 COPPER CABLE(m) | OPTICAL FIBER(m) | ACCESS POINTS | OUTLETS | HCC | ICC | MCC |
 |:-----:|:--------------------:|:----------------:|:-------------:|:-------:|:---:|:---:|:---:|
 |   0   |       4262,47        |       3,5        |       4       |   72    |  1  |  1  |  0  |
