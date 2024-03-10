@@ -126,13 +126,27 @@
     The type of the cables was determined to be Monomode Optical Fiber and Cat7 Coper Cables.
 
 ### 5.3. Length ###
+#### 5.3.1. Overview ####
+![building_3-table_total.png](images/building_3-table_total.png)
 #### 5.3.1. Ground Floor ####
+#### 5.3.1.1. Copper Cables Length ####
 ![floor_ground-table_copper_length.png](images/ground/tables_length/floor_ground-table_copper_length.png)
+
+#### 5.3.1.2. Access Points Cables Length ####
 ![floor_ground-table_access_points.png](images/ground/tables_length/floor_ground-table_access_points.png)
+
+#### 5.3.1.3. Optical Fiber Cables Length ####
 ![floor_ground-table_optical_fiber_length.png](images/ground/tables_length/floor_ground-table_optical_fiber_length.png)
+
+#### 5.3.1.4. Floor Cables Length Overview ####
 ![floor_ground-table_total.png](images/ground/tables_length/floor_ground-table_total.png)
+
 #### 5.3.2. First Floor ####
+#### 5.3.2.1. Copper Cables Length ####
 ![floor_first-table_copper_length.png](images/first/tables_length/floor_first-table_copper_length.png)
+#### 5.3.2.2. Access Points Cables Length ####
 ![floor_first-table_access_points.png](images/first/tables_length/floor_first-table_access_points.png)
+#### 5.3.2.3. Optical Fiber Cables Length ####
 ![floor_first-table_optical_fiber_length.png](images/first/tables_length/floor_first-table_optical_fiber_length.png)
+#### 5.3.2.4. Floor Cables Length Overview ####
 ![floor_first-table_total.png](images/first/tables_length/floor_first-table_total.png)
