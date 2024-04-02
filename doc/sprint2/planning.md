@@ -12,5 +12,14 @@
 | T.2.3 |                                          Development of a layer two and layer three Packet Tracer simulation for building 3, encompassing the campus backbone.                                           | Eduardo Carreiro (1211199) |
 | T.2.4 |                                          Development of a layer two and layer three Packet Tracer simulation for building 4, encompassing the campus backbone.                                           |  Diogo Correia (1212106)   |
 
-### 3. Subtasks ###
+### 3. Technical decisions ###
 
+    Packet Tracer version: 8.2.1
+
+    VLANIDs range: 384 – 405
+
+    VTP domain name: r2324dgg3
+
+    IPv4 address space: 172.23.192.0/20
+
+    ISP router’s IPv4 node address: 5.60.37.181/30
