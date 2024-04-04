@@ -14,12 +14,71 @@
 
 ### 3. Technical decisions ###
 
-    Packet Tracer version: 8.2.1
+**Packet Tracer version:** 8.2.1
 
-    VLANIDs range: 384 – 405
+**VLANIDs range:** 384 – 405
 
-    VTP domain name: r2324dgg3
+**VTP domain name:** r2324dgg3
 
-    IPv4 address space: 172.23.192.0/20
+**IPv4 address space:** 172.23.192.0/20
 
-    ISP router’s IPv4 node address: 5.60.37.181/30
+**ISP router’s IPv4 node address:** 5.60.37.181/30
+
+- **Access Point:**
+  - **Model:** AccessPoint-PT
+- **Laptop:**
+  - **Model:** Laptop-PT
+- **PC:**
+  - **Model:** PC-PT
+  - **Name:** PC-B*nBuilding*-F*nFloor* (ex. PC-B1-F1)
+- **Router:**
+  - **Model:** 2811
+  - **Name:** Router-B*nBuilding* (ex. Router-B1)
+- **Server:**
+  - **Model:** Server-PT
+- **Switch:**
+    - **Model:** Switch-PT-Empty
+    - **Name:** Switch-B*nBuilding*-F*nFloor*-*HCC/ICC/MCC* (ex. Switch-B1-F1-HCC)
+
+- **VoIP Phone:**
+  - **Model:** 7960
+
+
+
+### 4. IPv4 networks ###
+#### 4.1. Building 1 and Backbone ####
+
+    End user outlets on the ground floor: 50 nodes
+    End user outlets on floor one: 50 nodes
+    Wi-Fi network: 80 nodes
+    DMZ (Servers, administration workstations, and network infrastructure devices): 100 nodes
+    VoIP (IP-phones): 67 nodes
+
+    Backbone: 200 nodes
+
+#### 4.2. Building 2 ####
+
+    End user outlets on the ground floor: 90 nodes  
+    End user outlets on floor one: 120 nodes
+    Wi-Fi network: 220 nodes
+    DMZ (Servers, administration workstations, and network infrastructure devices): 50 nodes
+    VoIP (IP-phones): 110 nodes
+
+#### 4.3. Building 3 ####
+
+    End user outlets on the ground floor: 110 nodes
+    End user outlets on floor one: 130 nodes
+    Wi-Fi network: 200 nodes
+    DMZ (Servers, administration workstations, and network infrastructure devices): 45 nodes
+    VoIP (IP-phones): 180 nodes
+
+#### 4.4. Building 4 ####
+
+    End user outlets on the ground floor: 120 nodes
+    End user outlets on floor one: 150 nodes
+    Wi-Fi network: 190 nodes
+    DMZ (Servers, administration workstations, and network infrastructure devices): 40 nodes
+    VoIP (IP-phones): 170 nodes
+
+
+
