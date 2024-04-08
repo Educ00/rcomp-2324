@@ -14,20 +14,27 @@
 
 ### 3. Technical decisions ###
 
-**Packet Tracer version:** 8.2.1
+- **Packet Tracer version:** 8.2.1
 
-**VLANIDs range:** 384 – 405
 
-**VTP domain name:** r2324dgg3
+- **VLANIDs range:** 384 – 405
 
-**IPv4 address space:** 172.23.192.0/20
 
-**ISP router’s IPv4 node address:** 5.60.37.181/30
+- **VTP domain name:** r2324dgg3
+
+
+- **IPv4 address space:** 172.23.192.0/20
+
+
+- **ISP router’s IPv4 node address:** 5.60.37.181/30
+
 
 - **Access Point:**
   - **Model:** AccessPoint-PT
+  - **Name:** AP*number*-B*nBuilding*-F*nFloor* (ex. AP1-B1-F1)
 - **Laptop:**
   - **Model:** Laptop-PT
+  - **Name:** Laptop*number*-B*nBuilding*-F*nFloor* (ex. Laptop1-B1-F1)
 - **PC:**
   - **Model:** PC-PT
   - **Name:** PC-B*nBuilding*-F*nFloor* (ex. PC-B1-F1)
@@ -36,15 +43,16 @@
   - **Name:** Router-B*nBuilding* (ex. Router-B1)
 - **Server:**
   - **Model:** Server-PT
+  - **Name:** Server*number*-B*nBuilding*-F*nFloor* (ex. Server1-B1-F1)
 - **Switch:**
-    - **Model:** Switch-PT-Empty
-    - **Name:** Switch-B*nBuilding*-F*nFloor*-*HCC/ICC/MCC* (ex. Switch-B1-F1-HCC)
-
+  - **Model:** Switch-PT-Empty
+  - **Name:** Switch-B*nBuilding*-F*nFloor*-*HCC/ICC* (ex. Switch-B1-F1-HCC) and
+Switch-B*nBuilding*-*MCC* (ex. Switch-B1-F1-HCC)
 - **VoIP Phone:**
   - **Model:** 7960
+  - **Name:** VoIP*number*-B*nBuilding*-F*nFloor* (ex. Phone1-B1-F1)
 
-
-
+  
 ### 4. IPv4 networks ###
 #### 4.1. Building 1 and Backbone ####
 
