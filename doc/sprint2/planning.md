@@ -19,6 +19,40 @@
 
 - **VLANIDs range:** 384 – 405
 
+| Building | VLANID range |    
+|:--------:|:------------:|
+|    1     |  384 - 389   | 
+|    2     |  390 - 394   |   
+|    3     |  395 - 399   |
+|    4     |  400 - 404   |
+
+
+
+| Building | VLAN ID |   Name    |
+|:--------:|:-------:|:---------:|
+|    1     |   384   | BACKBONE  |
+|    1     |   385   | B1-OUT-F0 |
+|    1     |   386   | B1-OUT-F1 | 
+|    1     |   387   |  B1-WIFI  |
+|    1     |   388   |  B1-DMZ   |
+|    1     |   389   |  B1-VOIP  |
+|    2     |   390   | B2-OUT-F0 |
+|    2     |   391   | B2-OUT-F1 | 
+|    2     |   392   |  B2-WIFI  |
+|    2     |   393   |  B2-DMZ   |
+|    2     |   394   |  B2-VOIP  |
+|    3     |   395   | B3-OUT-F0 |
+|    3     |   396   | B3-OUT-F1 | 
+|    3     |   397   |  B3-WIFI  |
+|    3     |   398   |  B3-DMZ   |
+|    3     |   399   |  B3-VOIP  |
+|    4     |   400   | B4-OUT-F0 |
+|    4     |   401   | B4-OUT-F1 | 
+|    4     |   402   |  B4-WIFI  |
+|    4     |   403   |  B4-DMZ   |
+|    4     |   404   |  B4-VOIP  |
+
+
 
 - **VTP domain name:** r2324dgg3
 
@@ -46,8 +80,8 @@
   - **Name:** Server*number*-B*nBuilding*-F*nFloor* (ex. Server1-B1-F1)
 - **Switch:**
   - **Model:** Switch-PT-Empty
-  - **Name:** Switch-B*nBuilding*-F*nFloor*-*HCC/ICC* (ex. Switch-B1-F1-HCC) and
-Switch-B*nBuilding*-*MCC* (ex. Switch-B1-F1-HCC)
+  - **Name:** Switch-B*nBuilding*-F*nFloor*-*HCC* (ex. Switch-B1-F1-HCC) and
+Switch-B*nBuilding*-*ICC/MCC* (ex. Switch-B1-F1-HCC)
 - **VoIP Phone:**
   - **Model:** 7960
   - **Name:** VoIP*number*-B*nBuilding*-F*nFloor* (ex. Phone1-B1-F1)
