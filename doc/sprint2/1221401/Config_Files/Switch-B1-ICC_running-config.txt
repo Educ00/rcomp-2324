@@ -15,12 +15,12 @@ spanning-tree mode pvst
 spanning-tree extend system-id
 !
 interface FastEthernet0/1
- switchport mode trunk
 !
 interface FastEthernet1/1
- switchport mode trunk
 !
 interface FastEthernet2/1
+!
+interface FastEthernet3/1
  switchport mode trunk
 !
 interface Vlan1
