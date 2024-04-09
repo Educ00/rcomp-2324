@@ -15,6 +15,7 @@ spanning-tree mode pvst
 spanning-tree extend system-id
 !
 interface FastEthernet0/1
+ switchport mode trunk
 !
 interface GigabitEthernet1/1
  switchport access vlan 397
