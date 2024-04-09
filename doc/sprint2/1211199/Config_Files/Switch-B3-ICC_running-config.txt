@@ -15,14 +15,12 @@ spanning-tree mode pvst
 spanning-tree extend system-id
 !
 interface FastEthernet0/1
- switchport trunk allowed vlan 2-1001
 !
 interface FastEthernet1/1
- switchport trunk allowed vlan 2-395,397-1001
  switchport mode trunk
 !
 interface FastEthernet2/1
- switchport trunk allowed vlan 2-394,396-1001
+ switchport mode trunk
 !
 interface GigabitEthernet3/1
  switchport mode trunk

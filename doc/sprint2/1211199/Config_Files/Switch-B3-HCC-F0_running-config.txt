@@ -17,12 +17,13 @@ spanning-tree extend system-id
 interface FastEthernet0/1
 !
 interface GigabitEthernet1/1
- switchport trunk allowed vlan 2-394,397,400-1001
+ switchport access vlan 397
+ switchport mode trunk
 !
 interface GigabitEthernet2/1
  switchport access vlan 395
  switchport trunk allowed vlan 2-395,400-1001
- switchport mode trunk
+ switchport mode access
 !
 interface Vlan1
  no ip address
