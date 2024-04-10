@@ -1,8 +1,8 @@
 # Building 2 #
 
 ## Indice
-### 1. Imagens do Edificio
-### 2. Defesa das estrategias usadas
+### 1. Imagens do Layout do packet tracer
+### 2. Defesa das estratégias usadas
 ### 3. Inventario
 
 
@@ -22,8 +22,8 @@
     VoIP (IP-phones): 110 nodes
 
 
-    90 outlets0 - 172.23.195.24 
-    120 outlets1 - 172.23.195.192 
-    220 wifi - 172.23.196.192 
-    50 DMZ - 172.23.197.0 
-    110 VoIP - 172.23.201.64
+    90 outlets0 - 172.23.195.0/25 mascara - 255.255.255.128
+    120 outlets1 - 172.23.195.128/25 mascara - 255.255.255.128
+    220 wifi - 172.23.196.0/24 mascara - 255.255.255.0
+    50 DMZ - 172.23.197.0/26 mascara - 255.255.255.192
+    110 VoIP - 172.23.197.64/25 mascara - 255.255.255.128
