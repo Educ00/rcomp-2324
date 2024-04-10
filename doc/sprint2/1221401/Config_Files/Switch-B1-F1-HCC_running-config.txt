@@ -19,32 +19,39 @@ interface FastEthernet0/1
  switchport mode trunk
 !
 interface GigabitEthernet1/1
+ switchport access vlan 387
  switchport trunk allowed vlan 2-383,387,390-1001,1004-1005
- switchport mode trunk
+ switchport mode access
 !
 interface GigabitEthernet2/1
+ switchport access vlan 387
  switchport trunk allowed vlan 2-383,387,390-1001
- switchport mode trunk
+ switchport mode access
 !
 interface GigabitEthernet3/1
+ switchport access vlan 387
  switchport trunk allowed vlan 2-383,387,390-1001
- switchport mode trunk
+ switchport mode access
 !
 interface GigabitEthernet4/1
+ switchport access vlan 387
  switchport trunk allowed vlan 2-383,387,390-1001
- switchport mode trunk
+ switchport mode access
 !
 interface GigabitEthernet5/1
+ switchport access vlan 389
  switchport trunk allowed vlan 2-383,389-1001
- switchport mode trunk
+ switchport mode access
 !
 interface GigabitEthernet6/1
+ switchport access vlan 388
  switchport trunk allowed vlan 2-383,388,390-1001
- switchport mode trunk
+ switchport mode access
 !
 interface GigabitEthernet7/1
+ switchport access vlan 386
  switchport trunk allowed vlan 2-383,386,390-1001
- switchport mode trunk
+ switchport mode access
 !
 interface Vlan1
  no ip address

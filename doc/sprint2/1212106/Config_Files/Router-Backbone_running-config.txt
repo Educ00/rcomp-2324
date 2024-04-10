@@ -13,13 +13,13 @@ hostname Router
 !
 !
 !
-ip cef
+no ip cef
 no ipv6 cef
 !
 !
 !
 !
-license udi pid CISCO2811/K9 sn FTX10178APE-
+license udi pid CISCO2811/K9 sn FTX1017VZ9R-
 !
 !
 !
@@ -39,7 +39,7 @@ spanning-tree mode pvst
 !
 !
 interface FastEthernet0/0
- ip address 172.23.193.1 255.255.255.192
+ ip address 172.23.192.1 255.255.240.0
  duplex auto
  speed auto
 !
@@ -48,6 +48,9 @@ interface FastEthernet0/1
  duplex auto
  speed auto
  shutdown
+!
+interface FastEthernet1/0
+ no ip address
 !
 interface Vlan1
  no ip address
