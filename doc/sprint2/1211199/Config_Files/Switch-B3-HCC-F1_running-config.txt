@@ -17,25 +17,25 @@ spanning-tree extend system-id
 interface FastEthernet0/1
 !
 interface GigabitEthernet1/1
- switchport access vlan 397
+ switchport access vlan 395
 !
 interface GigabitEthernet2/1
- switchport access vlan 397
+ switchport access vlan 395
 !
 interface GigabitEthernet3/1
- switchport access vlan 397
+ switchport access vlan 395
 !
 interface GigabitEthernet4/1
- switchport access vlan 397
+ switchport access vlan 395
 !
 interface GigabitEthernet5/1
- switchport access vlan 396
+ switchport access vlan 397
 !
 interface GigabitEthernet6/1
- switchport access vlan 398
+ switchport access vlan 399
 !
 interface GigabitEthernet7/1
- switchport access vlan 399
+ switchport access vlan 396
  switchport trunk allowed vlan 2-394,397,400-1001
  switchport mode access
 !

@@ -18,39 +18,39 @@ interface GigabitEthernet0/1
  switchport mode trunk
 !
 interface GigabitEthernet1/1
- switchport access vlan 397
+ switchport access vlan 395
  switchport mode access
 !
 interface GigabitEthernet2/1
- switchport access vlan 397
+ switchport access vlan 395
  switchport mode access
 !
 interface GigabitEthernet3/1
- switchport access vlan 397
+ switchport access vlan 395
  switchport mode access
 !
 interface GigabitEthernet4/1
- switchport access vlan 397
+ switchport access vlan 395
  switchport mode access
 !
 interface GigabitEthernet5/1
- switchport access vlan 397
+ switchport access vlan 395
  switchport mode access
 !
 interface GigabitEthernet6/1
- switchport access vlan 397
+ switchport access vlan 395
  switchport mode access
 !
 interface GigabitEthernet7/1
- switchport access vlan 397
+ switchport access vlan 395
  switchport mode access
 !
 interface GigabitEthernet8/1
- switchport access vlan 397
+ switchport access vlan 395
  switchport mode access
 !
 interface GigabitEthernet9/1
- switchport access vlan 397
+ switchport access vlan 395
  switchport mode access
 !
 interface Vlan1
