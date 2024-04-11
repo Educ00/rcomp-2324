@@ -53,6 +53,26 @@ interface FastEthernet0/1
 interface FastEthernet1/0
  ip address 172.23.195.0 255.255.252.0
 !
+interface FastEthernet1/0.390
+ encapsulation dot1Q 390
+ ip address 172.23.196.1 255.255.255.0
+!
+interface FastEthernet1/0.391
+ encapsulation dot1Q 391
+ ip address 172.23.197.1 255.255.255.128
+!
+interface FastEthernet1/0.392
+ encapsulation dot1Q 392
+ ip address 172.23.197.129 255.255.255.128
+!
+interface FastEthernet1/0.393
+ encapsulation dot1Q 393
+ ip address 172.23.198.1 255.255.255.128
+!
+interface FastEthernet1/0.394
+ encapsulation dot1Q 394
+ ip address 172.23.198.129 255.255.255.192
+!
 interface Vlan1
  no ip address
  shutdown

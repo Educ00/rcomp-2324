@@ -51,13 +51,40 @@ interface FastEthernet0/1
  shutdown
 !
 interface FastEthernet1/0
- ip address 172.23.197.192 255.255.252.0
+ no ip address
+!
+interface FastEthernet1/0.384
+ encapsulation dot1Q 384
+ ip address 172.23.192.3 255.255.255.0
+!
+interface FastEthernet1/0.395
+ encapsulation dot1Q 395
+ ip address 172.23.200.1 255.255.255.0
+!
+interface FastEthernet1/0.396
+ encapsulation dot1Q 396
+ ip address 172.23.201.1 255.255.255.0
+!
+interface FastEthernet1/0.397
+ encapsulation dot1Q 397
+ ip address 172.23.202.1 255.255.255.0
+!
+interface FastEthernet1/0.398
+ encapsulation dot1Q 398
+ ip address 172.23.203.1 255.255.255.128
+!
+interface FastEthernet1/0.399
+ encapsulation dot1Q 399
+ ip address 172.23.203.129 255.255.255.192
 !
 interface Vlan1
  no ip address
  shutdown
 !
 ip classless
+ip route 172.23.192.0 255.255.252.0 172.23.192.1 
+ip route 172.23.196.0 255.255.252.0 172.23.192.2 
+ip route 172.23.204.0 255.255.252.0 172.23.192.4 
 !
 ip flow-export version 9
 !
