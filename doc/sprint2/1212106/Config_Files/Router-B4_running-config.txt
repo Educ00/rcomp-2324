@@ -13,7 +13,7 @@ hostname Router
 !
 !
 !
-ip cef
+no ip cef
 no ipv6 cef
 !
 !
@@ -42,12 +42,16 @@ interface FastEthernet0/0
  no ip address
  duplex auto
  speed auto
+ shutdown
 !
 interface FastEthernet0/1
  no ip address
  duplex auto
  speed auto
  shutdown
+!
+interface FastEthernet1/0
+ ip address 172.23.201.128 255.255.255.0
 !
 interface Vlan1
  no ip address

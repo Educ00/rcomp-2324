@@ -53,6 +53,8 @@ interface Vlan1
  no ip address
  shutdown
 !
+router rip
+!
 ip classless
 !
 ip flow-export version 9
