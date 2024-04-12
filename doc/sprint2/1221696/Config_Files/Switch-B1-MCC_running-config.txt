@@ -18,6 +18,12 @@ interface FastEthernet0/1
 !
 interface FastEthernet1/1
 !
+interface FastEthernet2/1
+!
+interface FastEthernet3/1
+!
+interface FastEthernet4/1
+!
 interface Vlan1
  no ip address
  shutdown

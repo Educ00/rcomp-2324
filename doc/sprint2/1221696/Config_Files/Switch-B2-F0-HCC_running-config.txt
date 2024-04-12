@@ -17,25 +17,25 @@ spanning-tree extend system-id
 interface FastEthernet0/1
 !
 interface GigabitEthernet1/1
- switchport access vlan 392
-!
-interface GigabitEthernet2/1
- switchport access vlan 392
-!
-interface GigabitEthernet3/1
- switchport access vlan 392
-!
-interface GigabitEthernet4/1
- switchport access vlan 392
-!
-interface GigabitEthernet5/1
- switchport access vlan 393
-!
-interface GigabitEthernet6/1
  switchport access vlan 390
 !
-interface GigabitEthernet7/1
+interface GigabitEthernet2/1
+ switchport access vlan 390
+!
+interface GigabitEthernet3/1
+ switchport access vlan 390
+!
+interface GigabitEthernet4/1
+ switchport access vlan 390
+!
+interface GigabitEthernet5/1
  switchport access vlan 394
+!
+interface GigabitEthernet6/1
+ switchport access vlan 393
+!
+interface GigabitEthernet7/1
+ switchport access vlan 392
 !
 interface Vlan1
  no ip address

@@ -15,30 +15,23 @@ spanning-tree mode pvst
 spanning-tree extend system-id
 !
 interface FastEthernet0/1
- switchport mode access
 !
 interface GigabitEthernet1/1
- switchport access vlan 392
- switchport mode access
+ switchport access vlan 390
 !
 interface GigabitEthernet2/1
- switchport access vlan 392
- switchport mode access
+ switchport access vlan 390
 !
 interface GigabitEthernet3/1
- switchport access vlan 392
- switchport mode access
+ switchport access vlan 390
 !
 interface GigabitEthernet4/1
- switchport access vlan 392
- switchport mode access
+ switchport access vlan 390
 !
 interface GigabitEthernet5/1
  switchport access vlan 391
- switchport mode access
 !
 interface GigabitEthernet6/1
- switchport mode access
 !
 interface Vlan1
  no ip address
