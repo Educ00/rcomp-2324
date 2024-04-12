@@ -19,7 +19,7 @@ no ipv6 cef
 !
 !
 !
-license udi pid CISCO2811/K9 sn FTX1017984P-
+license udi pid CISCO2811/K9 sn FTX1017VIJ8-
 !
 !
 !
@@ -55,38 +55,36 @@ interface FastEthernet1/0
 !
 interface FastEthernet1/0.384
  encapsulation dot1Q 384
- ip address 172.23.192.4 255.255.255.0
+ ip address 172.23.192.1 255.255.255.0
 !
-interface FastEthernet1/0.400
- encapsulation dot1Q 400
- ip address 172.23.204.1 255.255.255.0
+interface FastEthernet1/0.385
+ encapsulation dot1Q 385
+ ip address 172.23.193.1 255.255.255.128
 !
-interface FastEthernet1/0.401
- encapsulation dot1Q 401
- ip address 172.23.205.1 255.255.255.0
+interface FastEthernet1/0.386
+ encapsulation dot1Q 386
+ ip address 172.23.193.129 255.255.255.128
 !
-interface FastEthernet1/0.402
- encapsulation dot1Q 402
- ip address 172.23.206.1 255.255.255.0
+interface FastEthernet1/0.387
+ encapsulation dot1Q 387
+ ip address 172.23.194.1 255.255.255.128
 !
-interface FastEthernet1/0.403
- encapsulation dot1Q 403
- ip address 172.23.207.1 255.255.255.128
+interface FastEthernet1/0.388
+ encapsulation dot1Q 388
+ ip address 172.23.194.129 255.255.255.192
 !
-interface FastEthernet1/0.404
- encapsulation dot1Q 404
- ip address 172.23.207.129 255.255.255.192
+interface FastEthernet1/0.389
+ encapsulation dot1Q 389
+ ip address 172.23.194.193 255.255.255.192
 !
 interface Vlan1
  no ip address
  shutdown
 !
-router rip
-!
 ip classless
-ip route 172.23.192.0 255.255.252.0 172.23.192.1 
 ip route 172.23.196.0 255.255.252.0 172.23.192.2 
 ip route 172.23.200.0 255.255.252.0 172.23.192.3 
+ip route 172.23.204.0 255.255.252.0 172.23.192.4 
 !
 ip flow-export version 9
 !

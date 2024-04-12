@@ -18,6 +18,12 @@ interface FastEthernet0/1
  switchport mode trunk
 !
 interface FastEthernet1/1
+!
+interface FastEthernet2/1
+!
+interface FastEthernet3/1
+!
+interface FastEthernet4/1
  switchport mode trunk
 !
 interface Vlan1

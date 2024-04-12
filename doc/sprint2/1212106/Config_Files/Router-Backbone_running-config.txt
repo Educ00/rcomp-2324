@@ -50,7 +50,7 @@ interface FastEthernet0/1
  shutdown
 !
 interface FastEthernet1/0
- no ip address
+ ip address 172.23.193.128 255.255.255.0
 !
 interface Vlan1
  no ip address
