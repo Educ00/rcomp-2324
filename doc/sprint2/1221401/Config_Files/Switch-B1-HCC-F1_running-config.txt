@@ -15,32 +15,28 @@ spanning-tree mode pvst
 spanning-tree extend system-id
 !
 interface FastEthernet0/1
- switchport trunk allowed vlan 1-385,387-1005
- switchport mode trunk
 !
 interface GigabitEthernet1/1
- switchport access vlan 387
- switchport trunk allowed vlan 2-383,387,390-1001
- switchport mode access
+ switchport access vlan 386
 !
 interface GigabitEthernet2/1
- switchport access vlan 387
- switchport trunk allowed vlan 2-383,387,390-1001
- switchport mode access
+ switchport access vlan 386
 !
 interface GigabitEthernet3/1
- switchport access vlan 387
- switchport trunk allowed vlan 2-383,387,390-1001
- switchport mode access
+ switchport access vlan 386
 !
 interface GigabitEthernet4/1
- switchport access vlan 387
- switchport trunk allowed vlan 2-383,387,390-1001
- switchport mode access
+ switchport access vlan 386
 !
 interface GigabitEthernet5/1
+ switchport access vlan 389
+!
+interface GigabitEthernet6/1
  switchport access vlan 385
- switchport trunk allowed vlan 2-383,385,390-1001
+!
+interface GigabitEthernet7/1
+ switchport access vlan 387
+ switchport trunk allowed vlan 2-394,397,400-1001
  switchport mode access
 !
 interface Vlan1

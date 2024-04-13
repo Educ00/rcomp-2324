@@ -20,11 +20,8 @@ interface FastEthernet0/1
 interface FastEthernet1/1
  switchport mode trunk
 !
-interface FastEthernet2/1
- switchport mode trunk
-!
-interface FastEthernet3/1
- switchport mode trunk
+interface GigabitEthernet2/1
+ switchport access vlan 398
 !
 interface Vlan1
  no ip address
