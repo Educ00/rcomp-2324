@@ -4,7 +4,7 @@
 **Beatriz Morais (1221401)**
 
 ## 2. Overview ##
-The team has successfully completed the tasks assigned to them.
+The team has successfully completed the tasks assigned to them. We only have one feature that doesn't work very well, which is that the laptops are unable to connect to the access points in the campus simulation
 
 
 ## 3. Subtasks Assignment ##
