@@ -13,9 +13,7 @@
 | T.3.4 |                                                  Update the building4.pkt layer three Packet Tracer simulation from the previous sprint, to include the described features in this sprint for building 4.                                                  |  Diogo Correia (1212106)   |
 
 ### 3. Technical decisions ###
-#### 3.1. Packet Tracer Version ####
 
-- **Packet Tracer version:** 8.2.1
 
 #### 3.2. OSPF dynamic routing ####
 
@@ -39,6 +37,11 @@
 #### 3.5. VoIP service ####
 
 #### 3.6. DNS ####
+
+    DNS domain name: rcomp-23-24-dg-g3
+    DNS local domain name: building-X.rcomp-23-24-dg-g3
+    Unqualified DNS domain name: ns.rcomp-23-24-dg-g3
+    Unqualified DNS local domain name: ns.building-X.rcomp-23-24-dg-g3
 
 #### 3.7. NAT (Network Address Translation) ####
 
