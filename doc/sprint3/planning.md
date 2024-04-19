@@ -17,21 +17,10 @@
 
 #### 3.2. OSPF dynamic routing ####
 
-    Static routing will no longer be used, thus on every router, the existing static routing tables should be
-    erased, the only exception is the default route established in the building 1 router.
-
-    OSPF area ids to be used in each building must be settled on the planning meeting, each building is
-    required to use a unique id.
-    The team member in charge of building 1 must insert into the OSPF routing protocol the default route,
-    pointing to the ISP router (default-information originate command).
-
+   
 #### 3.3. HTTP servers ####
 
-    In addition to the already existing server, in each building, a new server must be added to the local DMZ
-    network, as the former, it will have a manually set IPv4 address. On this server, the HTTP/HTTPS
-    service is to be enabled, and a simple HTML page should be created, the page should at least identify the
-    building it belongs to.
-
+    
 #### 3.4. DHCPv4 service ####
 
 #### 3.5. VoIP service ####
