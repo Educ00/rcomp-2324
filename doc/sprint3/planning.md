@@ -17,8 +17,12 @@
 
 #### 3.2. OSPF dynamic routing ####
 
+    Static routing will no longer be used, thus on every router, the existing static routing tables should be
+    erased, the only exception is the default route established in the building 1 router.
+
     OSPF area ids to be used in each building must be settled on the planning meeting, each building is
     required to use a unique id.
+
     The team member in charge of building 1 must insert into the OSPF routing protocol the default route,
     pointing to the ISP router (default-information originate command).
 
