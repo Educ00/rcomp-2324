@@ -1,0 +1,107 @@
+!
+version 15.1
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+no service password-encryption
+!
+hostname Router
+!
+!
+!
+!
+!
+!
+!
+!
+no ip cef
+no ipv6 cef
+!
+!
+!
+!
+license udi pid CISCO2811/K9 sn FTX10172062-
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+spanning-tree mode pvst
+!
+!
+!
+!
+!
+!
+interface FastEthernet0/0
+ no ip address
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/1
+ no ip address
+ duplex auto
+ speed auto
+!
+interface FastEthernet1/0
+ no ip address
+!
+interface FastEthernet1/0.384
+ encapsulation dot1Q 384
+ ip address 172.23.192.2 255.255.255.0
+!
+interface FastEthernet1/0.390
+ encapsulation dot1Q 390
+ ip address 172.23.196.1 255.255.255.0
+!
+interface FastEthernet1/0.391
+ encapsulation dot1Q 391
+ ip address 172.23.197.1 255.255.255.128
+!
+interface FastEthernet1/0.392
+ encapsulation dot1Q 392
+ ip address 172.23.197.129 255.255.255.128
+!
+interface FastEthernet1/0.393
+ encapsulation dot1Q 393
+ ip address 172.23.198.1 255.255.255.128
+!
+interface FastEthernet1/0.394
+ encapsulation dot1Q 394
+ ip address 172.23.198.129 255.255.255.192
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+router rip
+!
+ip classless
+ip route 172.23.200.0 255.255.252.0 172.23.192.3 
+ip route 172.23.192.0 255.255.252.0 172.23.192.1 
+ip route 172.23.204.0 255.255.252.0 172.23.192.4 
+!
+ip flow-export version 9
+!
+!
+!
+!
+!
+!
+!
+line con 0
+!
+line aux 0
+!
+line vty 0 4
+ login
+!
+!
+!
+end
+

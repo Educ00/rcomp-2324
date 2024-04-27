@@ -1,6 +1,6 @@
 # Project 1 - Sprint 3 planning #
 
-### 1. Scrum Master: ###
+### 1. Sprint Master: ###
 **Rui Moreira (1221696).**
 
 ### 2. Backlog: ###
