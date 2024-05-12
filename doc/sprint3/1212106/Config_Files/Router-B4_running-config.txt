@@ -10,6 +10,7 @@ hostname Router
 !
 !
 !
+ip dhcp pool B4-WIFI
 !
 !
 !
@@ -81,8 +82,20 @@ interface Vlan1
  no ip address
  shutdown
 !
+router ospf 2
+ log-adjacency-changes
+ network 172.23.204.0 0.0.3.255 area 4
+ network 172.23.192.0 0.0.3.255 area 0
+!
 router rip
 !
+ip nat inside source static tcp 172.23.203.130 443 172.23.192.2 443 
+ip nat inside source static tcp 172.23.203.130 80 172.23.192.2 80 
+ip nat inside source static tcp 172.23.203.130 53 172.23.192.2 53 
+ip nat inside source static tcp 172.23.203.129 443 172.23.192.2 443 
+ip nat inside source static tcp 172.23.203.129 80 172.23.192.2 80 
+ip nat inside source static tcp 172.23.203.129 53 172.23.192.2 53 
+ip nat inside source static udp 172.23.203.129 53 172.23.192.2 53 
 ip classless
 ip route 172.23.192.0 255.255.252.0 172.23.192.1 
 ip route 172.23.196.0 255.255.252.0 172.23.192.2 

@@ -17,19 +17,20 @@ spanning-tree extend system-id
 interface FastEthernet0/1
 !
 interface GigabitEthernet1/1
- switchport access vlan 400
 !
 interface GigabitEthernet2/1
- switchport access vlan 400
 !
 interface GigabitEthernet3/1
- switchport access vlan 400
 !
 interface GigabitEthernet4/1
- switchport access vlan 400
 !
 interface GigabitEthernet5/1
- switchport access vlan 403
+!
+interface GigabitEthernet6/1
+!
+interface GigabitEthernet7/1
+ switchport mode access
+ switchport voice vlan 401
 !
 interface Vlan1
  no ip address

@@ -30,9 +30,9 @@ interface GigabitEthernet3/1
  switchport mode access
 !
 interface GigabitEthernet4/1
- switchport access vlan 401
  switchport trunk allowed vlan 2-399,404-1001
  switchport mode access
+ switchport voice vlan 401
 !
 interface GigabitEthernet5/1
  switchport access vlan 402
