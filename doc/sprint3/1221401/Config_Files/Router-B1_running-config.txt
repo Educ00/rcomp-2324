@@ -10,6 +10,23 @@ hostname Router
 !
 !
 !
+ip dhcp pool B1-F1-NET
+ network 172.23.194.192 255.255.255.192
+ default-router 172.23.194.193
+ dns-server 172.23.193.2
+ip dhcp pool B1-F0-NET
+ network 172.23.194.128 255.255.255.192
+ default-router 172.23.194.129
+ dns-server 172.23.193.2
+ domain-name rcomp-23-24-dg-g3
+ip dhcp pool B1-VOIP-NET
+ network 172.23.194.0 255.255.255.128
+ default-router 172.23.194.1
+ dns-server 172.23.193.2
+ip dhcp pool B1-WIFI-NET
+ network 172.23.193.128 255.255.255.128
+ default-router 172.23.193.129
+ dns-server 172.23.193.2
 !
 !
 !
@@ -19,7 +36,7 @@ no ipv6 cef
 !
 !
 !
-license udi pid CISCO2811/K9 sn FTX1017P3Y6-
+license udi pid CISCO2811/K9 sn FTX101787N8-
 !
 !
 !
@@ -81,10 +98,23 @@ interface Vlan1
  no ip address
  shutdown
 !
+router ospf 2
+ log-adjacency-changes
+ network 172.23.193.0 0.0.0.127 area 1
+ network 172.23.193.128 0.0.0.127 area 1
+ network 172.23.194.0 0.0.0.127 area 1
+ network 172.23.194.128 0.0.0.63 area 1
+ network 172.23.194.192 0.0.0.63 area 1
+ network 172.23.192.0 0.0.0.255 area 0
+!
+router rip
+!
+ip nat inside source static tcp 172.23.193.1 443 172.23.193.2 443 
+ip nat inside source static tcp 172.23.193.1 80 172.23.193.2 80 
+ip nat inside source static tcp 172.23.193.1 53 172.23.193.2 53 
+ip nat inside source static udp 172.23.193.1 53 172.23.193.2 53 
 ip classless
-ip route 172.23.196.0 255.255.252.0 172.23.192.2 
-ip route 172.23.200.0 255.255.252.0 172.23.192.3 
-ip route 172.23.204.0 255.255.252.0 172.23.192.4 
+ip route 172.23.192.0 255.255.255.0 172.23.193.0 
 !
 ip flow-export version 9
 !
@@ -93,6 +123,27 @@ ip flow-export version 9
 !
 !
 !
+!
+dial-peer voice 387 voip
+ destination-pattern 1001
+ session target ipv4:172.23.194.1
+!
+dial-peer voice 392 voip
+ destination-pattern 2001
+ session target ipv4:172.23.197.129
+!
+dial-peer voice 396 voip
+ destination-pattern 3001
+ session target ipv4:172.23.201.1
+!
+dial-peer voice 401 voip
+ destination-pattern 4001
+ session target ipv4:172.23.205.1
+!
+telephony-service
+ no auto-reg-ephone
+ max-ephones 10
+ max-dn 10
 !
 line con 0
 !

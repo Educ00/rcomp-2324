@@ -17,27 +17,27 @@ spanning-tree extend system-id
 interface FastEthernet0/1
 !
 interface GigabitEthernet1/1
- switchport access vlan 386
 !
 interface GigabitEthernet2/1
- switchport access vlan 386
 !
 interface GigabitEthernet3/1
- switchport access vlan 386
 !
 interface GigabitEthernet4/1
- switchport access vlan 386
 !
 interface GigabitEthernet5/1
- switchport access vlan 389
 !
 interface GigabitEthernet6/1
- switchport access vlan 385
 !
 interface GigabitEthernet7/1
- switchport access vlan 387
- switchport trunk allowed vlan 2-394,397,400-1001
  switchport mode access
+ switchport voice vlan 387
+!
+interface GigabitEthernet8/1
+ switchport mode access
+ switchport voice vlan 387
+!
+interface GigabitEthernet9/1
+ switchport access vlan 385
 !
 interface Vlan1
  no ip address
