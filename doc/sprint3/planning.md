@@ -49,6 +49,13 @@
     address of the TFTP (Trivial File Transfer Protocol) server to be used by Cisco IP phones model 7960
     to download the phone’s configuration file.
 
+| Building |  Floor 0  | Floor 1   | WiFi        | VoIP        |
+|:--------:|:---------:|-----------|-------------|-------------|
+|    1     | B1-F0-NET | B1-F1-NET | B1-WIFI-NET | B1-VOIP-NET |
+|    2     | B2-F0-NET | B2-F1-NET | B2-WIFI-NET | B2-VOIP-NET |
+|    3     | B3-F0-NET | B3-F1-NET | B3-WIFI-NET | B3-VOIP-NET |
+|    4     | B4-F0-NET | B4-F1-NET | B4-WIFI-NET | B4-VOIP-NET |
+
 #### 3.5. VoIP service ####
 
     For VoIP local testing, in each building there should be at least two connected IP phones (7960 model).
